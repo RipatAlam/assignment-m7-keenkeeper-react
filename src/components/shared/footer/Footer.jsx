@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
     
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-200 text-gray-400">
+      <div className="grid grid-cols-1 md:grid-cols-1 sm:gap-5 sm:pt-5 md:pt-5 md:gap-5 gap-200 text-gray-400">
         <div>
           <p className="text-sm sm:text-base md:text-[16px] font-normal text-center pb-6 px-4 md:px-0 max-w-2xl mx-auto text-gray-300">
             &copy; 2026 KeenKeeper. All rights reserved.
