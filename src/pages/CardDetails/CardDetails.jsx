@@ -128,26 +128,26 @@ const CardDetails = () => {
                     Quick Check-In
                   </h3>
 
-                  <div className="grid grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 sm:justify-items-center gap-4">
                     <Link>
-                      <button onClick={() => handleCall(expectedCard)} className="flex flex-col items-center gap-3 py-6 bg-gray-50 hover:bg-emerald-50 hover:text-emerald-600 rounded-2xl transition group">
-                        <div className="w-50 text-gray-400 group-hover:text-emerald-600" />
+                      <button onClick={() => handleCall(expectedCard)} className="flex flex-col items-center gap-3 py-6 px-14 bg-gray-50 hover:bg-emerald-50 hover:text-emerald-600 rounded-2xl transition group">
+                        
                         <IoCall className="w-8 h-8 text-gray-400 group-hover:text-emerald-600" />
                         <span className="font-medium text-[20px]">Call</span>
                       </button>
                     </Link>
 
                     <Link>
-                      <button onClick={() => handleText(expectedCard)} className="flex flex-col items-center gap-3 py-6 bg-gray-50 hover:bg-blue-50 hover:text-blue-600 rounded-2xl transition group">
-                        <div className="w-50 text-gray-400 group-hover:text-blue-600" />
+                      <button onClick={() => handleText(expectedCard)} className="flex flex-col items-center gap-3 py-6 px-14 bg-gray-50 hover:bg-blue-50 hover:text-blue-600 rounded-2xl transition group">
+                        
                         <IoMdText className="w-8 h-8 text-gray-400 group-hover:text-blue-600" />
                         <span className="font-medium text-[20px]">Text</span>
                       </button>
                     </Link>
 
                     <Link>
-                      <button onClick={() => handleVideo(expectedCard)} className="flex flex-col items-center gap-3 py-6 bg-gray-50 hover:bg-purple-50 hover:text-purple-600 rounded-2xl transition group">
-                        <div className="w-50 text-gray-400 group-hover:text-purple-600" />
+                      <button onClick={() => handleVideo(expectedCard)} className="flex flex-col items-center gap-3 py-6 px-14 bg-gray-50 hover:bg-purple-50 hover:text-purple-600 rounded-2xl transition group">
+                        
                         <IoMdVideocam className="w-8 h-8 text-gray-400 group-hover:text-purple-600" />
                         <span className="font-medium text-[20px]">Video</span>
                       </button>
