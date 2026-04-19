@@ -28,7 +28,7 @@ const VideoList = () => {
 {/* Content */}
           <div className="flex flex-col gap-2">
             <h1>
-              <span className="font-semibold text-2xl">Meetup</span> with {card.name}
+              <span className="font-semibold text-2xl">Video</span> with {card.name}
             </h1>
 
             <h2 className="text-gray-600">
