@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router";
-import MainLayout from "../layout/MainLayout";
-import Homepage from "../pages/homepage/Homepage";
+import CardDetails from "../pages/CardDetails/CardDetails";
 import TimeLinePage from "../pages/timelinepage/TimeLinePage";
 import StatsPage from "../pages/statspage/StatsPage";
 import ErrorPage from "../pages/errorpage/ErrorPage";
-import CardDetails from "../pages/CardDetails/CardDetails";
+import MainLayout from "../layout/MainLayout";
+import Homepage from "../pages/homepage/HomePage";
 
 export const router = createBrowserRouter([
   {

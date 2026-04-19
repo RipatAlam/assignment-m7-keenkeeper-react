@@ -1,10 +1,10 @@
 import React from 'react';
-import Rechart from '../../components/charts/rechart';
+import RechartComp from '../../components/charts/RechartComp';
 
 const StatsPage = () => {
     return (
         <div>
-            <Rechart />
+            <RechartComp />
         </div>
     );
 };

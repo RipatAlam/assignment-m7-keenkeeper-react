@@ -15,7 +15,7 @@ import {
   YAxis,
 } from "recharts";
 
-const Rechart = () => {
+const RechartComp = () => {
   const { calls, text, video } = useContext(CardContext);
 
   const total = calls.length + text.length + video.length;
@@ -89,4 +89,4 @@ const Rechart = () => {
   );
 };
 
-export default Rechart;
+export default RechartComp;
